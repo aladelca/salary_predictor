@@ -2,7 +2,7 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
-
+from predict_salary.pipeline import TextPreprocessing
 
 def main():
     """Run administrative tasks."""
